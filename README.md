@@ -10,4 +10,4 @@ sudo mv listen-for-shutdown.sh /etc/init.d/<br />
 sudo chmod +x /etc/init.d/listen-for-shutdown.sh<br />
 sudo update-rc.d listen-for-shutdown.sh defaults<br />
 
-* * * * * tmux send-keys -t session:0.0 "echo 'hello world'" C-m
+\* \* \* \* \* tmux send-keys -t session:0.0 "echo 'hello world'" C-m
